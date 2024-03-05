@@ -1,0 +1,1 @@
+A React Native build of the [photo-frame-sync](https://github.com/pandymic/photo-frame-sync) PWA. Hold on to your butts.
