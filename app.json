@@ -3,25 +3,27 @@
     "name": "PhotoFrameSync",
     "slug": "PhotoFrameSync",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#998877"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pandymic.PhotoFrameSync"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#998877"
+      },
+      "package": "com.pandymic.PhotoFrameSync"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -36,9 +38,16 @@
       [
         "expo-font",
         {
-          "fonts": ["./assets/AlbertSans-VariableFont_wght.ttf"]
+          "fonts": [
+            "./assets/AlbertSans-VariableFont_wght.ttf"
+          ]
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "f239d685-494a-4267-b76a-2aea797d144b"
+      }
+    }
   }
 }
