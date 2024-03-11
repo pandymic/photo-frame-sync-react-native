@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "PhotoFrameSync",
+    "name": "Photo Frame",
     "slug": "PhotoFrameSync",
     "version": "1.0.0",
     "orientation": "landscape",
@@ -19,6 +19,9 @@
       "bundleIdentifier": "com.pandymic.PhotoFrameSync"
     },
     "android": {
+      "permissions": [
+        "android.permission.INTERNET"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#998877"
@@ -30,17 +33,17 @@
     },
     "plugins": [
       [
-        "expo-screen-orientation",
-        {
-          "initialOrientation": "LANDSCAPE"
-        }
-      ],
-      [
         "expo-font",
         {
           "fonts": [
             "./assets/AlbertSans-VariableFont_wght.ttf"
           ]
+        }
+      ],
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "LANDSCAPE"
         }
       ]
     ],

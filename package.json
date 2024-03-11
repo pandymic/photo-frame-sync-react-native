@@ -9,18 +9,17 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "base-64": "^1.0.0",
     "expo": "~50.0.8",
     "expo-font": "~11.10.3",
-    "expo-screen-orientation": "~6.4.1",
     "expo-splash-screen": "~0.26.4",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.4",
-    "react-native-svg": "14.1.0"
+    "react-native": "0.73.4"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "expo-screen-orientation": "^6.4.1",
+    "react-native-svg": "^15.1.0"
   },
   "private": true
 }

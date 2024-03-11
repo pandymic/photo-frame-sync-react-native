@@ -2,13 +2,12 @@
 
 # dependencies
 node_modules/
-android/
-ios/
 
 # Expo
 .expo/
 dist/
 web-build/
+package-lock.json
 
 # Native
 *.orig.*
@@ -35,3 +34,8 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+
+# builds
+android/
+ios/
+*.apk
